@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
 import java.awt.event.ActionEvent;
 import java.awt.Toolkit;
 
-public class ColorCovn extends JFrame{
+public class ColorCoversion extends JFrame{
 
 	/**
 	 * 
@@ -44,7 +44,7 @@ public class ColorCovn extends JFrame{
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					ColorCovn frame = new ColorCovn();
+					ColorCoversion frame = new ColorCoversion();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -56,8 +56,8 @@ public class ColorCovn extends JFrame{
 	/**
 	 * Create the frame.
 	 */
-	public ColorCovn() {
-		setIconImage(Toolkit.getDefaultToolkit().getImage(ColorCovn.class.getResource("/ico/ico.jpg")));
+	public ColorCoversion() {
+		setIconImage(Toolkit.getDefaultToolkit().getImage(ColorCoversion.class.getResource("/ico/ico.jpg")));
 		setTitle("CC\u00B2");
 		setResizable(false);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
