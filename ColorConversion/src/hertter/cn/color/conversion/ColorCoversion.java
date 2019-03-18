@@ -1,4 +1,4 @@
-package hertter.cn.colorConversion;
+package hertter.cn.color.conversion;
 
 /**
  * 颜色转换的小工具
