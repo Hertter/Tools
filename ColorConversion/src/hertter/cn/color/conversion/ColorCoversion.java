@@ -35,6 +35,9 @@ public class ColorCoversion extends JFrame{
 	private int g1;
 	private int b1;
 	private String hex;
+	/**
+	 * 用于匹配十六进制
+	 */
 	private String patternHex = "^#([0-9a-fA-F]{6})|([0-9a-fA-F]{3})$";
 	private char[] dst = new char[7];
 	/**
