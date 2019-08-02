@@ -10,5 +10,15 @@
 文件名操作小助手，支持批量增加文件名或目录名前（后）缀、批量删除文件名或目录名前（后）缀
 ### CodeRain
 代码雨简易版
+### CsdnViewer
+CSDN文章访问助手，给定一个作者的博客，并设置要需要访问的次数即可。
+> public static void main(String[] args) throws MalformedURLException, IOException, InterruptedException {
+		// 主页链接，格式为：https://blog.csdn.net/xxxxxxx，例如https://blog.csdn.net/weixin_41463193
+		String url = "https://blog.csdn.net/weixin_41463193";
+		// 总共需要刷多少次，每次会阅读所有的文章
+		int times = 2;
+		// 开始阅读
+		new Viewer(new Extractor(url).extract(), times).startView();
+	}
 
 
